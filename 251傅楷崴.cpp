@@ -7,7 +7,7 @@ int money;
 cout << "說!你口袋有多少錢:";
 cin >> money;
 
-int e = money / a, f = money - e * a; 
+int x = money / a, f = money - x * a; 
 cout <<"這麼少阿...最少有" << e << "個50元 ";
 int g=f/b,h=f-g*b;
 cout <<"," << g << "個10元";
